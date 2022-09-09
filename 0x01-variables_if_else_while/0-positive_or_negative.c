@@ -1,6 +1,10 @@
-uth: BENSON MWANGI
-
- */
+/*
+ *
+ *  * File: 0-positive_or_negative.c
+ *
+ *   * Auth: Benson mwangi
+ *
+ *    */
 
 
 
@@ -12,19 +16,19 @@ uth: BENSON MWANGI
 
 
 
- /**
-  *
-  *  * main - Prints a random number and states whether
-  *
-  *   *        it is positive, negative, or zero.
-  *
-  *    *
-  *
-  *     * Return: Always 0.
-  *
-  *     */
+/**
+ *
+ *  * main - Prints a random number and states whether
+ *
+ *   *        it is positive, negative, or zero.
+ *
+ *    *
+ *
+ *     * Return: Always 0.
+ *
+ *     */
 
- int main(void)
+int main(void)
 
 {
 
