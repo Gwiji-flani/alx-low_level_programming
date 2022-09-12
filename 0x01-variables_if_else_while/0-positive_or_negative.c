@@ -1,16 +1,12 @@
-uth: Brennan D Baraban
+uth: bensonmwangi
 
  */
 
-
-
-#include <stdlib.h>
+#include <stdlibh>
 
 #include <time.h>
 
 #include <stdio.h>
-
-
 
  /**
   *
@@ -30,8 +26,6 @@ uth: Brennan D Baraban
 
 		int n;
 
-
-
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
@@ -49,9 +43,5 @@ uth: Brennan D Baraban
 							else
 
 										printf("%d is zero\n", n);
-
-
-
 								return (0);
-
 }
