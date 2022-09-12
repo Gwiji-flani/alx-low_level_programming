@@ -1,46 +1,57 @@
+uth: Brennan D Baraban
+
+ */
+
+
+
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
 
-/**
- * main - print if the number if positive or negative
- *
- * Description:this program prints "programming is positive, zero, or negative 
- * Return: 0
- */
-int main (void)
+
+
+ /**
+  *
+  *  * main - Prints a random number and states whether
+  *
+  *   *        it is positive, negative, or zero.
+  *
+  *    *
+  *
+  *     * Return: Always 0.
+  *
+  *     */
+
+ int main(void)
+
 {
-	int n;
 
-	strand(time (0);
-			n=rand() -RAND_MAX / 2;
-			/* your code goes there */
-			if(n > o)
-			{
-			printf("%i is positive\n", n);
-			else if (n==0)
-			{
+		int n;
 
-				printf("%i is positive\n", n);
 
-				}
 
-				else if (n == 0)
+			srand(time(0));
 
-				{
+				n = rand() - RAND_MAX / 2;
 
-					printf("%i is zero\n", n);
 
-					}
 
-				else if (n < 0)
+					if (n > 0)
 
-				{
+								printf("%d is positive\n", n);
 
-						printf("%i is negative\n", n);
+						else if (n < 0)
 
-				}
+									printf("%d is negative\n", n);
 
-				return (0);
+							else
 
-			}
+										printf("%d is zero\n", n);
+
+
+
+								return (0);
+
+}
